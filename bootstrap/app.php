@@ -1,5 +1,6 @@
 <?php
 
+error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
